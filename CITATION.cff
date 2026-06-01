@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the paper and this repository."
+title: "GeoApple-Seg: Geometry-Aware Apple Instance Segmentation with RGB-D Fusion and Amodal Reasoning"
+authors:
+  - family-names: Yan
+    given-names: Peng
+    affiliation: Longdong University
+version: 0.1.0
+date-released: "2026-06-01"
+license: MIT
+repository-code: "https://github.com/pengyan971228/geoApple"
+preferred-citation:
+  type: article
+  title: "GeoApple-Seg: Geometry-Aware Apple Instance Segmentation with RGB-D Fusion and Amodal Reasoning"
+  authors:
+    - family-names: Yan
+      given-names: Peng
+      affiliation: Longdong University
+  journal: "Image and Vision Computing"
+  year: 2026
+  notes: "Under review"

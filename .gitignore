@@ -1,0 +1,74 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+*.egg
+build/
+dist/
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Project-specific: data, models, logs, outputs
+data/
+datasets/
+*.zip
+*.tar.gz
+runs/
+outputs/
+checkpoints/
+*.pt
+*.pth
+!yolo11n-seg.pt.placeholder
+*.log
+nohup.out
+*.pid
+
+# Jupyter / IPython
+.ipynb_checkpoints/
+*.ipynb
+
+# Test / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.mypy_cache/
+.ruff_cache/
+
+# Hydra / WandB
+.hydra/
+wandb/
+multirun/
+
+# Local config overrides
+config.local.yaml
+.env
+.env.*
